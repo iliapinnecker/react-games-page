@@ -34,19 +34,22 @@ nav > h1 {
 
 .card {
     width: 200px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     border-color: whitesmoke;
     border: 10px;
     align-items: center;
     border: 1px solid white;
     border-radius: 10px;
-    
+    margin: 20px;
 }
 
 .cards-list {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
     gap: 20px;
     justify-content: center;
 }
@@ -59,4 +62,8 @@ nav > h1 {
 
 section {
     margin: 20px;
+}
+
+.card-title, .card-rating, .card-desc, .card-price {
+    text-align: center;
 }
